@@ -1,0 +1,25 @@
+.busca {
+    width: 13px;
+    box-sizing: border-box;
+border:0;
+    outline: none;
+
+    font-size: 16px;
+    background-color: #343a40;
+    background-image: url('https://www.w3schools.com/howto/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 10px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float:right;
+}
+
+.busca:focus {
+    width: 300px;
+    border-top: 0;
+    border-right:0;
+    border-left:0;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
